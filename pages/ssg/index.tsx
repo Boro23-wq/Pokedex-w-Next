@@ -31,7 +31,7 @@ const SSGPage = (props: { pokis: PokiResultDTO[] }) => {
                 </Box>
 
                 <p className={styles.description}>
-                    The following list of pokemons are fetched through server-side rendering using getStaticProps.
+                    The following list of pokemons are fetched through static-side generation using getStaticProps and getStaticPaths.
                 </p>
 
                 <div className={styles.grid}>

@@ -54,9 +54,7 @@ export default function SSRInfoPage() {
                     <div className={styles.infoHeadingWrapper}>
                         <h1 className={styles.infoHeadingText}>2. Client-side Page Request</h1>
                         <p className={styles.infoDescriptionText} >
-                            The page is requested using client-side page transitions
-                            <br />
-                            through next/link or next/router (internal links on the page).
+                            The page is requested using client-side page transitions through `next/link` or `next/router` (internal links on the page).
                         </p>
                     </div>
 
