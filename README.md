@@ -1,7 +1,7 @@
 ## Pokedex w/ Next.js
 The application is built to demonstrate client-side rendering, server-side rendering, static site generation, and incremental static regeneration using Next.js.
 
-![Cover]()
+![Cover](https://github.com/Boro23-wq/Pokedex-w-Next.js/blob/master/public/cover-min.png)
 
 ## Tools used for this site
 - [Next.js](https://nextjs.org/)
