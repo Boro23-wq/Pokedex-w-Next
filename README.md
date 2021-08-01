@@ -53,4 +53,4 @@ NEXT_PUBLIC_API_POKI_IMAGE_SPRITE_URL=https://raw.githubusercontent.com/PokeAPI/
 
 ## Attribution
 
-This application was inspired by [Ahmad Awais'](https://www.youtube.com/watch?v=eKFZBCFa_jc&t=908s) video on Youtube where he demonstrated a very similar application that helps explain Next.js' data fetching techniques.
+This application is inspired by [Ahmad Awais'](https://www.youtube.com/watch?v=eKFZBCFa_jc&t=908s) video on Youtube where he demonstrated a very similar application that helps explain Next.js' data fetching techniques.

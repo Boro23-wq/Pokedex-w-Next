@@ -43,7 +43,7 @@ export default function SSRInfoPage() {
                     <div className={styles.infoWDivrapper}>
 
                         <div className={styles.infoDivContainer}>
-                            <div className={styles.infoStepNo} > Step #1</div>
+                            <div className={styles.infoStepNo} > Step #2</div>
                             Client displays the pre-rendered page from the server.
                         </div>
                     </div>
