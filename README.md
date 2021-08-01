@@ -14,8 +14,14 @@ The application is built to demonstrate client-side rendering, server-side rende
 ## Concept
 **1. Client-side rendering:**
 Client-side rendering serves a blank page (loading state) without any content until the Javascript content is fetched, then later rehydrates the application with dynamic content. <br/>
+
+<br/>
+
 **2. Server-side rendering:**
 Server-side rendering pre-renders a page on the server,  includes the data, and delivers a fully populated HTML page with dynamic data to the client.
+
+<br/>
+
 **3. Static-site generation:** <br/>
 Static-site generation usually generates the pages during build time. With Incremental-static regeneration, we can statically generate on a per-page basis, without needing to rebuild the entire site.
 
