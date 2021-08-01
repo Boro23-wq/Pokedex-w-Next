@@ -20,7 +20,7 @@ const LayoutWrapper = (props: { children: ReactNode }) => {
                     <div className={styles.footerTitleDiv}>Developed by{' '} <span className={styles.logo}> <a href='https://sboro.vercel.app' target='_blank' rel="noreferrer">Sintu Boro</a></span></div>
                     <div className={styles.footerSubtitleDiv}>
                         <div style={{ marginRight: '4px' }}>Found a problem? Raise an issue</div>
-                        <div style={{ color: 'rgba(255, 255, 255, 0.65)' }}><a href='https://github.com/Boro23-wq/Pokedex-w-Next.js/issues'>@Boro23-wq.</a></div>
+                        <div style={{ color: 'rgba(255, 255, 255, 0.65)' }}><a href='https://github.com/Boro23-wq/Pokedex-w-Next/issues'>@Boro23-wq.</a></div>
                     </div>
                 </footer>
             </div >
