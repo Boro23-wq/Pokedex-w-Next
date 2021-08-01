@@ -1,0 +1,252 @@
+.container {
+  display: flex;
+  background-color: #0A0A0A;
+  color: rgb(252, 252, 253);
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.topBorder {
+  height: 8px;
+  background-image: linear-gradient(to right,#ee0979, #ff6a00 );
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  border-top: 1px solid rgba(234, 234, 234, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerTitleDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.footerSubtitleDiv {
+  display: flex;
+  color: rgba(255,255,255,0.4);
+  font-size: 12.5px;
+}
+
+.footerSpan {
+  color: rgba(255,255,255,0.6);
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.title a {
+  background: -webkit-linear-gradient(30deg, #FC466B, #3F5EFB);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+  /* font-style: italic; */
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  font-weight: 800;
+  text-align: center;
+}
+
+.description {
+  margin-top: 2rem;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.span {
+  text-decoration: underline;
+  font-weight: 800;
+}
+
+.infoSpan {
+  background: -webkit-linear-gradient(20deg, rgba(252, 70, 107, 0.95), rgba(63, 94, 251, 0.95));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin-top: 3rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  height: 1em;
+  margin-left: 0.25rem;
+}
+
+.logo a {
+  background: -webkit-linear-gradient(20deg, rgba(252, 70, 107, 0.95), rgba(63, 94, 251, 0.95));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+}
+
+.infoWrapper {
+  margin-top: 50px;
+}
+
+.hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.05));
+}
+
+.infoWDivrapper {
+  margin-bottom: 10px;
+}
+
+.infoHeadingWrapper {
+  /* margin-top: 30px; */
+  margin-bottom: 20px;
+}
+
+.infoHeadingText {
+  margin-bottom: 6px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.infoDescriptionText {
+  font-size: 16px;
+  color: rgba(255,255,255,0.5);
+}
+
+.infoDivContainer {
+  display: flex;
+  background-color: rgba(63, 94, 251, 0.85);
+  font-weight: 600;
+  padding: 8px;
+  font-size: 15px;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.infoSubDivContainer {
+  display: flex;
+  background-color: rgba(63, 94, 251, 0.5);
+  font-weight: 600;
+  padding: 8px;
+  margin-left: 10px;
+  font-size: 15px;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.proDivContainer {
+  display: flex;
+  background-color: rgb(56, 239, 125);
+  color: #0A0A0A;
+  font-weight: 600;
+  padding: 8px;
+  font-size: 15px;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.conDivContainer {
+  display: flex;
+  background-color: rgba(252, 70, 107, 0.95);
+  color: white;
+  font-weight: 600;
+  padding: 8px;
+  font-size: 15px;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.infoStepNo {
+ background-color: rgba(255, 255, 255, 0.95);
+ color: rgba(10, 10, 10, 0.65);
+ padding: 2px 10px;
+ font-size: 12px;
+ font-weight: 800;
+ text-transform: uppercase;
+ margin-right: 12px;
+ border-radius: 4px;
+}
+
+@media (max-width: 680px) {
+  .infoDivContainer {
+    display: flex;
+    /* min-width: 400px; */
+  }
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 300px) {
+  .footer {
+    padding-top: 20px;
+  }
+  
+  .footerTitleDiv {
+    font-size: 12px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footerSubtitleDiv {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 1.2rem;
+  }
+
+  .description {
+    font-size: 0.85rem;
+  }
+}
+
