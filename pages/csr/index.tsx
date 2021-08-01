@@ -5,10 +5,10 @@ import fetcher, { getImgUrl } from '../../src/utils/fetcher';
 import { Box, Button, Spinner } from "@chakra-ui/react"
 import LayoutWrapper from '../../src/components/LayoutWrapper/LayoutWrapper'
 import { PokiCard } from '../../src/components/PokiCard/PokiCard';
-
-import styles from '../../styles/Home.module.css'
 import { PokiResultDTO } from '../../src/dto/PokiDTO';
 import { ArrowBackIcon, InfoIcon } from '@chakra-ui/icons';
+
+import styles from '../../styles/Home.module.css'
 
 export default function CSRPage() {
     const url = `${process.env.NEXT_PUBLIC_API_BASE_URL}/pokemon/?limit=99`;
@@ -23,12 +23,12 @@ export default function CSRPage() {
                     CSR - <a href="https://www.pokemon.com/us/pokedex/">Pokedex!</a>
                 </h1>
 
-                <Box d='flex' mt='4'>
+                <Box className={styles.buttonBox} >
                     <Link href='/' passHref>
-                        <Button leftIcon={<ArrowBackIcon />} mr='2' size="sm" colorScheme='pink' variant='outline'>Home</Button>
+                        <Button className={styles.buttonBoxBtn} leftIcon={<ArrowBackIcon />} mr='2' size="sm" colorScheme='pink' variant='outline'>Home</Button>
                     </Link>
                     <Link href='/csr/info' passHref>
-                        <Button leftIcon={<InfoIcon />} mr='2' size="sm" colorScheme='pink' variant='outline'>How CSR works?</Button>
+                        <Button className={styles.buttonBoxBtn} leftIcon={<InfoIcon />} mr='2' size="sm" colorScheme='pink' variant='outline'>How CSR works?</Button>
                     </Link>
                 </Box>
 

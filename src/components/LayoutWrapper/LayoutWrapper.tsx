@@ -5,11 +5,11 @@ import styles from '../../../styles/Home.module.css'
 
 const LayoutWrapper = (props: { children: ReactNode }) => {
     return (
-        <div>
+        <>
             <div className={styles.topBorder} ></div>
             <div className={styles.container}>
                 <Head>
-                    <title>Next Pokedex</title>
+                    <title>Pokedex | Next -  By Boro</title>
                     <meta name="description" content="Pokedex built using Next.js to demonstrate client-side rendering, server-side rendering and static site generation." />
                     <link rel="icon" href="/pokeball.ico" />
                 </Head>
@@ -24,7 +24,7 @@ const LayoutWrapper = (props: { children: ReactNode }) => {
                     </div>
                 </footer>
             </div >
-        </div >
+        </>
     )
 }
 

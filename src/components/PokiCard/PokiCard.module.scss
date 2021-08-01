@@ -23,7 +23,7 @@
         color: rgb(255, 255, 255, 0.75);
         transition: color 0.15s ease, border-color 0.15s ease;
         &:hover {
-            color: rgb(255, 255, 255, 0.95)
+            color: rgb(255, 255, 255, 0.95);
         }
     }
 
@@ -48,5 +48,21 @@
     .btn {
         margin: auto;
         margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 380px) {
+    .card {
+        margin: 1rem 0rem 1rem 0rem;
+        min-width: auto;
+        padding: 0.5rem 0.75rem;
+
+        h2 {
+            font-size: 1rem;
+        }
+
+        a {
+            font-size: 0.75rem;
+        }
     }
 }

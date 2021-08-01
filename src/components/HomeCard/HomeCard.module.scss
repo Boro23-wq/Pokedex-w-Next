@@ -34,6 +34,12 @@
     }
 }
 
+@media (max-width: 600px) {
+    .card {
+        width: stretch;
+    }
+}
+
 @media (max-width: 300px) {
     .card {
         margin: 0;
