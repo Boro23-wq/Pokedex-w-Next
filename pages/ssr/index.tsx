@@ -29,7 +29,7 @@ export default function SSRPage(props: { pokis: PokiResultDTO[] }) {
                 </Box>
 
                 <p className={styles.description}>
-                    The following list of pokemons are fetched through server-side rendering using getServerSideProps.
+                    The following list of pokemons are fetched through server-side rendering using `getServerSideProps`.
                 </p>
 
                 <div className={styles.grid}>

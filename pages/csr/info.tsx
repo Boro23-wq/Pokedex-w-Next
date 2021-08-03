@@ -28,6 +28,10 @@ export default function CSRInfoPage() {
                 {/* CSR INFO */}
                 <div className={styles.infoWrapper}>
 
+                    <div className={styles.infoMainHeadingWrapper}>
+                        <h1 className={styles.infoMainHeadingText}>CSR Briefing:</h1>
+                    </div>
+
                     <div className={styles.infoWDivrapper}>
                         <div className={styles.infoDivContainer}>
                             <div className={styles.infoStepNo} > Step #1</div>
@@ -55,6 +59,10 @@ export default function CSRInfoPage() {
 
                     <hr className={styles.hr} />
 
+                    <div className={styles.infoMainHeadingWrapper}>
+                        <h1 className={styles.infoMainHeadingText}>CSR Pros:</h1>
+                    </div>
+
                     <div className={styles.infoWDivrapper}>
                         <div className={styles.proDivContainer}>
                             <div className={styles.infoStepNo} > PRO</div>
@@ -76,6 +84,10 @@ export default function CSRInfoPage() {
 
                     <hr className={styles.hr} />
 
+                    <div className={styles.infoMainHeadingWrapper}>
+                        <h1 className={styles.infoMainHeadingText}>CSR Cons:</h1>
+                    </div>
+
                     <div className={styles.infoWDivrapper}>
                         <div className={styles.conDivContainer}>
                             <div className={styles.infoStepNo} > CON</div>
@@ -92,6 +104,37 @@ export default function CSRInfoPage() {
                         <div className={styles.conDivContainer}>
                             <div className={styles.infoStepNo} > CON</div>
                             Poor performance on slower devices.
+                        </div>
+                    </div>
+
+                    <hr className={styles.hr} />
+
+                    <div className={styles.infoMainHeadingWrapper}>
+                        <h1 className={styles.infoMainHeadingText}>CSR Usecases:</h1>
+                    </div>
+
+                    <div className={styles.infoWDivrapper}>
+                        <div className={styles.useCaseDivContainer}>
+                            <div className={styles.infoStepNo} > USECASE</div>
+                            Pages behind a paywall / private dashboard pages.
+                        </div>
+                    </div>
+                    <div className={styles.infoWDivrapper}>
+                        <div className={styles.useCaseDivContainer}>
+                            <div className={styles.infoStepNo} > USECASE</div>
+                            Pages with frequent data updates.
+                        </div>
+                    </div>
+                    <div className={styles.infoWDivrapper}>
+                        <div className={styles.useCaseDivContainer}>
+                            <div className={styles.infoStepNo} > USECASE</div>
+                            Banking websites where data is requested on-demand.
+                        </div>
+                    </div>
+                    <div className={styles.infoWDivrapper}>
+                        <div className={styles.useCaseDivContainer}>
+                            <div className={styles.infoStepNo} > USECASE</div>
+                            Pages that don&apos;t require SEO optimizations.
                         </div>
                     </div>
 

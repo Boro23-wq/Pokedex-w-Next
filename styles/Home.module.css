@@ -150,7 +150,7 @@
 
 .hr {
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.05));
@@ -158,6 +158,18 @@
 
 .infoWDivrapper {
   margin-bottom: 10px;
+}
+
+.infoMainHeadingWrapper {
+  /* margin-top: 30px; */
+  margin-bottom: 20px;
+}
+
+.infoMainHeadingText {
+  margin-bottom: 6px;
+  font-size: 26px;
+  font-weight: 800;
+  text-decoration: underline;
 }
 
 .infoHeadingWrapper {
@@ -219,6 +231,17 @@
   border-radius: 6px;
 }
 
+.useCaseDivContainer {
+  display: flex;
+  background-color: rgba(142, 84, 233, 0.95);
+  color: white;
+  font-weight: 600;
+  padding: 8px;
+  font-size: 15px;
+  align-items: center;
+  border-radius: 6px;
+}
+
 .infoStepNo {
  background-color: rgba(255, 255, 255, 0.95);
  color: rgba(10, 10, 10, 0.65);
@@ -259,6 +282,11 @@
   }
 
   .conDivContainer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .useCaseDivContainer {
     flex-direction: column;
     align-items: flex-start;
   }

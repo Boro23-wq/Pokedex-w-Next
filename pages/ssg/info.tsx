@@ -27,6 +27,10 @@ export default function SSGInfoPage() {
 
                 <div className={styles.infoWrapper}>
 
+                    <div className={styles.infoMainHeadingWrapper}>
+                        <h1 className={styles.infoMainHeadingText}>SSG Briefing:</h1>
+                    </div>
+
                     {/* Basic static site generation */}
                     <div className={styles.infoHeadingWrapper}>
                         <h1 className={styles.infoHeadingText}>1. Basic Static Site Generation</h1>
@@ -131,6 +135,10 @@ export default function SSGInfoPage() {
 
                     <hr className={styles.hr} />
 
+                    <div className={styles.infoMainHeadingWrapper}>
+                        <h1 className={styles.infoMainHeadingText}>SSG Pros:</h1>
+                    </div>
+
                     <div className={styles.infoWDivrapper}>
                         <div className={styles.proDivContainer}>
                             <div className={styles.infoStepNo} > PRO</div>
@@ -154,6 +162,10 @@ export default function SSGInfoPage() {
 
                     <hr className={styles.hr} />
 
+                    <div className={styles.infoMainHeadingWrapper}>
+                        <h1 className={styles.infoMainHeadingText}>SSG Cons:</h1>
+                    </div>
+
                     <div className={styles.infoWDivrapper}>
                         <div className={styles.conDivContainer}>
                             <div className={styles.infoStepNo} > CON</div>
@@ -172,8 +184,27 @@ export default function SSGInfoPage() {
                             Not recommended for websites that requires data to be frequently updated.
                         </div>
                     </div>
-                </div>
 
+                    <hr className={styles.hr} />
+
+                    <div className={styles.infoMainHeadingWrapper}>
+                        <h1 className={styles.infoMainHeadingText}>SSG Usecases:</h1>
+                    </div>
+
+                    <div className={styles.infoWDivrapper}>
+                        <div className={styles.useCaseDivContainer}>
+                            <div className={styles.infoStepNo} >USECASE</div>
+                            Blog sites, documentation pages where data is not frequently updated.
+                        </div>
+                    </div>
+                    <div className={styles.infoWDivrapper}>
+                        <div className={styles.useCaseDivContainer}>
+                            <div className={styles.infoStepNo} >USECASE</div>
+                            Blog sites, documentation pages where data is not frequently updated.
+                        </div>
+                    </div>
+
+                </div>
             </main>
         </LayoutWrapper>
     )

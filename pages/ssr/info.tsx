@@ -27,6 +27,10 @@ export default function SSRInfoPage() {
 
                 <div className={styles.infoWrapper}>
 
+                    <div className={styles.infoMainHeadingWrapper}>
+                        <h1 className={styles.infoMainHeadingText}>SSR Briefing:</h1>
+                    </div>
+
                     {/* Direct page request */}
                     <div className={styles.infoHeadingWrapper}>
                         <h1 className={styles.infoHeadingText}>1. Direct Page Request</h1>
@@ -88,6 +92,10 @@ export default function SSRInfoPage() {
 
                     <hr className={styles.hr} />
 
+                    <div className={styles.infoMainHeadingWrapper}>
+                        <h1 className={styles.infoMainHeadingText}>SSR Pros:</h1>
+                    </div>
+
                     <div className={styles.infoWDivrapper}>
                         <div className={styles.proDivContainer}>
                             <div className={styles.infoStepNo} > PRO</div>
@@ -111,6 +119,10 @@ export default function SSRInfoPage() {
 
                     <hr className={styles.hr} />
 
+                    <div className={styles.infoMainHeadingWrapper}>
+                        <h1 className={styles.infoMainHeadingText}>SSR Cons:</h1>
+                    </div>
+
                     <div className={styles.infoWDivrapper}>
                         <div className={styles.conDivContainer}>
                             <div className={styles.infoStepNo} > CON</div>
@@ -129,7 +141,35 @@ export default function SSRInfoPage() {
                             Not compatible with libraries that needs to access `document`.
                         </div>
                     </div>
+
+                    <hr className={styles.hr} />
+
+                    <div className={styles.infoMainHeadingWrapper}>
+                        <h1 className={styles.infoMainHeadingText}>SSR Usecases:</h1>
+                    </div>
+
+                    <div className={styles.infoWDivrapper}>
+                        <div className={styles.useCaseDivContainer}>
+                            <div className={styles.infoStepNo} >USECASE</div>
+                            Can be used with pages that requires heavy work load.
+                        </div>
+                    </div>
+                    <div className={styles.infoWDivrapper}>
+                        <div className={styles.useCaseDivContainer}>
+                            <div className={styles.infoStepNo} >USECASE</div>
+                            Websites that requires link previews.
+                        </div>
+                    </div>
+                    <div className={styles.infoWDivrapper}>
+                        <div className={styles.useCaseDivContainer}>
+                            <div className={styles.infoStepNo}>USECASE</div>
+                            Websites with lots of pages (only render on request).
+                        </div>
+                    </div>
+
                 </div>
+
+
 
             </main>
         </LayoutWrapper >
