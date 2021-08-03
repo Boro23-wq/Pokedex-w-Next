@@ -71,7 +71,7 @@ export default function Home() {
           <Box mr="2">
             <Popover>
               <PopoverTrigger>
-                <Button size='xs' colorScheme='whiteAlpha' variant='outline'>#CSR</Button>
+                <Button size='xs' colorScheme='whiteAlpha' variant='outline'>#SSG</Button>
               </PopoverTrigger>
               <PopoverContent color="white" bg="gray.800" borderColor="gray.700">
                 <PopoverArrow />
